@@ -18,4 +18,4 @@ Platform product leader (Microsoft, Tableau, and Elastic alum). Lately I build s
 
 ---
 
-<sub>More writing on applied AI, homelab, and homesteading at [philoking.com](https://philoking.com).</sub>
+More writing on applied AI, homelab, and homesteading at [philoking.com](https://philoking.com).
