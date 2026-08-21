@@ -4,18 +4,23 @@
 [![Blog](https://img.shields.io/badge/Blog-philoking.com-FF6600?style=flat&logo=rss&logoColor=white)](https://philoking.com)
 [![GitHub followers](https://img.shields.io/github/followers/philoking?style=flat&color=555)](https://github.com/philoking)
 
-Platform product leader (Microsoft, Tableau, and Elastic alum). Lately I build self-hosted, local-LLM tools and tend an oversized homelab. Almost everything here runs privately, on my hardware.
+Principal PM. Fifteen years on platforms and developer ecosystems at Microsoft, Tableau, and Elastic. Connector SDKs, partner certification, marketplace scaling, and the Kibana platform.
 
----
+These days I ship the products myself. I work through coding agents rather than writing the code, so the job is what it always was: scope, sequencing, tradeoffs, and knowing when something is wrong. Everything below started as a problem I actually had, got specced, and shipped. Most of it runs on my own hardware, against local models, with no data leaving the house.
 
-### Featured Projects
+### Featured projects
 
-| Project | Description |  |
-| :-- | :-- | :-- |
-| [**cruxwire**](https://github.com/philoking/cruxwire) | Self-hosted, local-LLM news reader that ranks, de-duplicates, and summarizes your RSS/Atom feeds privately. Uses Ollama with `nomic-embed-text` for semantic dedup and runs fully offline. [Public Site](https://cruxwire.app) | [![Stars](https://img.shields.io/github/stars/philoking/cruxwire?style=flat&color=gold)](https://github.com/philoking/cruxwire/stargazers) |
-| [**backyard-birds**](https://github.com/philoking/backyard-birds) | Self-hosted bird-sound monitoring. BirdNET listens to RTSP camera audio, logs detections to TimescaleDB, and a Next.js dashboard adds species pages, weather correlation, and an eBird / xeno-canto review queue. | [![Stars](https://img.shields.io/github/stars/philoking/backyard-birds?style=flat&color=gold)](https://github.com/philoking/backyard-birds/stargazers) |
-| [**modularriffs**](https://github.com/philoking/modularriffs) | Browser-based generative MIDI tool for jamming over a modular synth. Derives four evolving monophonic parts (pad, bass, arp, melody) from real song-structure blueprints and melodic motifs. | [![Stars](https://img.shields.io/github/stars/philoking/modularriffs?style=flat&color=gold)](https://github.com/philoking/modularriffs/stargazers) |
-| [**Sumline**](https://github.com/philoking/Sumline) | An open-source, self-hosted notepad calculator in the spirit of Soulver. Runs in Docker, reachable from any browser on your network.. | [![Stars](https://img.shields.io/github/stars/philoking/modularriffs?style=flat&color=gold)](https://github.com/philoking/Sumline/stargazers) |
----
+| Project | What it does |
+| --- | --- |
+| [cruxwire](https://github.com/philoking/cruxwire) | Self-hosted news reader that ranks, de-duplicates, and summarizes RSS/Atom feeds using local LLMs. Semantic dedup via `nomic-embed-text` embeddings, clustering across sources, fully offline. Live at [cruxwire.app](https://cruxwire.app). |
+| [backyard-birds](https://github.com/philoking/backyard-birds) | Bird-sound monitoring on existing camera audio. BirdNET-Go listens to RTSP streams, detections land in TimescaleDB, and a Next.js dashboard adds species pages, weather correlation, and an eBird / xeno-canto review queue for false positives. |
+| [Sumline](https://github.com/philoking/Sumline) | Notepad calculator in the spirit of Soulver. Natural language in, running totals out. Runs in Docker, reachable from any browser on your network. |
+| [modularriffs](https://github.com/philoking/modularriffs) | Browser-based generative MIDI tool for jamming over a modular synth. Derives four evolving monophonic parts from real song-structure blueprints and melodic motifs. |
 
-More writing on applied AI, homelab, and homesteading at [philoking.com](https://philoking.com).
+### Writing
+
+I write about applied AI, the homelab, and product work at [philoking.com](https://philoking.com).
+
+### A note on the repo count
+
+Most of what I build lives on a self-hosted Gitea instance. What's here is the subset finished enough to hand to someone else.
