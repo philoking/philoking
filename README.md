@@ -4,9 +4,9 @@
 [![Blog](https://img.shields.io/badge/Blog-philoking.com-FF6600?style=flat&logo=rss&logoColor=white)](https://philoking.com)
 [![GitHub followers](https://img.shields.io/github/followers/philoking?style=flat&color=555)](https://github.com/philoking)
 
-Principal PM. Fifteen years on platforms and developer ecosystems at Microsoft, Tableau, and Elastic. Connector SDKs, partner certification, marketplace scaling, and the Kibana platform.
+Principal PM. Fifteen years on platforms and developer ecosystems at Microsoft, Tableau, Elastic and now GitLab.
 
-These days I ship the products myself. I work through coding agents rather than writing the code, so the job is what it always was: scope, sequencing, tradeoffs, and knowing when something is wrong. Everything below started as a problem I actually had, got specced, and shipped. Most of it runs on my own hardware, against local models, with no data leaving the house.
+These days I ship some products myself. I work through coding agents rather than writing the code, so the job is what it always was: scope, sequencing, tradeoffs, and knowing when something is wrong. Everything below started as a problem I actually had, got specced, and shipped. Most of it runs on my own hardware, against local models, with no data leaving the house.
 
 ### Featured projects
 
